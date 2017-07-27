@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="flexible.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font_vaduggbsisjaif6r/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./less/nus.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/dist/css/swiper.min.css">
+    <script src="./lib/dist/js/swiper.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="javascript:;">
+            <span class="glyphicon glyphicon-question-sign"></span>
+        </a>
+        <div class="location">
+            <div class="logo"></div>
+            <div class="address">
+                <span>北京</span>
+                <em class="glyphicon glyphicon-triangle-bottom"></em>
+            </div>
+        </div>
+        <div class="search">
+            <span class="iconfont icon-logo" style="font-size:34px"></span>
+        </div>
+        <div class="swiper-container" style="backgroundColor:#39424a">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+                <div class="swiper-slide"><a href="javascript:;">首页</a></div>
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <div class="swiper-container2" style="position:relative">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a3.vimage1.com/upload/flow/2017/07/25/14/15009881278336.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a2.vimage1.com/upload/flow/2017/07/25/135/15009655348721.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a3.vimage1.com/upload/flow/2017/07/25/14/15009881278336.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a2.vimage1.com/upload/flow/2017/07/25/197/15009725219131.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a3.vimage1.com/upload/flow/2017/07/25/14/15009881278336.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href="javascript:;"><img src="//a3.vimage1.com/upload/flow/2017/07/25/14/15009881278336.jpg" alt=""></a></div>
+            </div>
+            <!-- Add Pagination -->
+             <div class="swiper-pagination" style="bottom:0"></div> 
+        </div>
+
+    </header>
+    <main>
+    </main>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        // pagination: '.swiper-pagination',
+        slidesPerView: 4,
+        centeredSlides: false,
+        // paginationClickable: true,
+        // spaceBetween: 30,
+        grabCursor: true
+    });
+    var swiper2 = new Swiper('.swiper-container2', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        centeredSlides: false,
+        // paginationClickable: true,
+        // spaceBetween: 30,
+        // grabCursor: true,
+        autoplay:true,
+        speed:2000,
+        loop:true,
+        // onlyExternal : true,
+    });
+
+</script>
+</body>
+</html>
